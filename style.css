@@ -540,3 +540,9 @@
     min-height: 360px;
   }
 }
+body{
+  background: url('images/bg.jpg');
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}

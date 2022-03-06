@@ -5,7 +5,7 @@ $(document).ready(function() {
   var animTime = 1000;
   var scrolling = false;
   var pgPrefix = ".skw-page-";
-
+  
   function pagination() {
     scrolling = true;
 
@@ -44,6 +44,16 @@ $(document).ready(function() {
     if (e.which === 38) {
       navigateUp();
     } else if (e.which === 40) {
+      navigateDown();
+    }
+  });
+    $(document).on("ontouchmove", function(e) {
+    this.lastY = e.pageY;
+    if (scrolling) return;
+    if (e.pageY > this.lastY) {
+      navigateUp();
+      
+    } else if (e.pageY < this.lastY) {
       navigateDown();
     }
   });
