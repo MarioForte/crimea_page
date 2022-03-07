@@ -548,3 +548,9 @@ body{
 .table1{
   width: 80%;
 }
+.bordout {
+  outline:4px inset #C3B9B9;
+}
+.bordin{
+    outline:4px outset #C3B9B9;
+}
