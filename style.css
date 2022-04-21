@@ -1,5 +1,6 @@
 .u-section-1 .u-sheet-1 {
   min-height: 549px;
+  margin-top: 30px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -553,4 +554,18 @@ body{
 }
 .bordin{
     outline:4px outset #C3B9B9;
+}
+.cntr{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+.obtek{
+  float:right;
+  margin-left: auto;
+
+}
+.mrg{
+  padding: 3% 0;
 }

@@ -15540,7 +15540,6 @@ html {
   font-size: 1rem;
   line-height: 1.6;
 }
-.u-body h1,
 .u-body h2,
 .u-body h3,
 .u-body h4,
@@ -36514,9 +36513,6 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
-.u-header .u-text-1 {
-  margin: -108px auto 60px 138px;
-}
 
 
 
